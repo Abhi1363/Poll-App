@@ -1,0 +1,70 @@
+{
+  "polls": [
+    {
+      "id": 1769604625120,
+      "question": "Do you like Cricket?",
+      "isActive": true,
+      "createdAt": "2026-01-28T12:50:25.120Z"
+    },
+    {
+      "id": 1769604656486,
+      "question": "Lets go for picnic!",
+      "isActive": true,
+      "createdAt": "2026-01-28T12:50:56.486Z"
+    }
+  ],
+  "options": [
+    {
+      "id": 1769516580210,
+      "text": "Express",
+      "votes": 0
+    },
+    {
+      "id": 1769516580211,
+      "text": "Django",
+      "votes": 0
+    },
+    {
+      "id": 1769516615585,
+      "text": "Express",
+      "votes": 0
+    },
+    {
+      "id": 1769516615586,
+      "text": "Django",
+      "votes": 0
+    },
+    {
+      "id": 1769604625121,
+      "pollId": 1769604625120,
+      "text": "Yes",
+      "votes": 1
+    },
+    {
+      "id": 1769604625122,
+      "pollId": 1769604625120,
+      "text": "No",
+      "votes": 0
+    },
+    {
+      "id": 1769604656487,
+      "pollId": 1769604656486,
+      "text": "Yes",
+      "votes": 0
+    },
+    {
+      "id": 1769604656488,
+      "pollId": 1769604656486,
+      "text": "Sorry",
+      "votes": 0
+    }
+  ],
+  "votes": [
+    {
+      "id": 1769604681910,
+      "pollId": 1769604625120,
+      "optionId": 1769604625121,
+      "votedAt": "2026-01-28T12:51:21.910Z"
+    }
+  ]
+}
