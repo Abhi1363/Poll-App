@@ -1,57 +1,53 @@
-simple and professional Polling/Voting Application built using React (Frontend) and Node.js + Express (Backend).
+
+# 🗳️ Polling / Voting Application
+
+A simple and professional **Polling/Voting Application** built using **React (Frontend)** and **Node.js + Express (Backend)**.
 Users can view polls, vote on options, and see real-time results, while admins can create and delete polls.
 
-🚀 Features
-👤 User Features
+---
 
-View all available polls
+## 🚀 Features
 
-View poll details with options
+### 👤 User Features
 
-Vote on a poll (single vote per session)
+* View all available polls
+* View poll details with options
+* Vote on a poll (single vote per session)
+* Change selected option before submitting
+* View poll results with:
 
-Change selected option before submitting
+  * Vote count
+  * Percentage distribution
+* Clean and responsive UI
 
-View poll results with:
+### 🛠️ Admin Features
 
-Vote count
+* Create new polls
+* Add multiple options to a poll
+* Delete existing polls
 
-Percentage distribution
+---
 
-Clean and responsive UI
+## 🧑‍💻 Tech Stack
 
-🛠️ Admin Features
+### Frontend
 
-Create new polls
+* React
+* React Router
+* Material UI (MUI)
+* Bootstrap (utility classes)
 
-Add multiple options to a poll
+### Backend
 
-Delete existing polls
+* Node.js
+* Express.js
+* File-based database (`db.json`)
 
-🧑‍💻 Tech Stack
-Frontend
+---
 
-React
+## 📁 Project Structure
 
-React Router
-
-Material UI (MUI)
-
-Bootstrap (utility classes)
-
-Backend
-
-Node.js
-
-Express.js
-
-File-based database (db.json)
-
-
-
-
-PROJECT STRUCTURE:
-
+```
 polling-app/
 │
 ├── backend/
@@ -77,3 +73,48 @@ polling-app/
 │   └── package.json
 │
 └── README.md
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### Backend
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+Runs on: `http://localhost:5000`
+
+---
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Runs on: `http://localhost:3000`
+
+---
+
+## 🧠 Application Overview
+
+* **Poll List Page** → Displays all poll questions
+* **Poll Detail Page** → Allows users to select and submit votes
+* **Results Page** → Shows vote percentages and total votes
+* **Create Poll Page** → Admin can create polls with multiple options
+
+---
+
+## 👨‍💻 Author
+
+**Abhyuday Pawar**
+Web Developer | MERN Stack
+
+---
